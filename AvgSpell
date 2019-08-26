@@ -25,3 +25,10 @@ print('Your Spell power for this spell is ' + str(Sp))
 
 spellavg = spellavg+Sp 
 print("Average Spell will do: " + str(spellavg))
+
+#100 = SP
+#374 = spell1
+#440 =spell2
+#3 = casttime.
+#Spell Coeff should be 86%
+#Average Spell should come out to 493.0
