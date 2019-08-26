@@ -1,0 +1,27 @@
+print('Whats your spell power?')
+SP = int(input()) 
+print('Your spell power is: ' + str(SP))
+
+print('Whats the begining range?')
+spell1= int(input())
+print('Whats the ending range?')
+spell2= int(input())
+
+spellavg = (spell1+spell2)/2
+
+print("Spell average is "+ str(spellavg))
+
+print('Whats the casting time?')
+casttime = float(input())
+#reference spell coeff is 3.5
+casttime = float("{0:.2f}".format((casttime/3.5)))
+castcocast = float("{0:.2f}".format((casttime*100)))
+
+print("Spell cast time is "+ str(casttime))
+print("Spell coeff is "+ str(castcocast) + "%")
+
+Sp = SP*casttime
+print('Your Spell power for this spell is ' + str(Sp))
+
+spellavg = spellavg+Sp 
+print("Average Spell will do: " + str(spellavg))
