@@ -1,0 +1,2 @@
+# Wow-Calculations-
+Spell Coefficients 
